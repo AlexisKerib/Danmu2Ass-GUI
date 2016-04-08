@@ -11,3 +11,16 @@ e:\documents\visual studio 2015\Projects\Danmu2Ass GUI\Danmu2Ass GUI\obj\Debug\D
 e:\documents\visual studio 2015\Projects\Danmu2Ass GUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Win_Expert.resources
 e:\documents\visual studio 2015\Projects\Danmu2Ass GUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Win_Main.zh-CN.resources
 e:\documents\visual studio 2015\Projects\Danmu2Ass GUI\Danmu2Ass GUI\obj\Debug\zh-CN\Danmu2Ass GUI.resources.dll
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass GUI.exe
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass GUI.pdb
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\bin\Debug\Danmu2Ass GUI.exe
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\bin\Debug\Danmu2Ass GUI.pdb
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\bin\Debug\zh-CN\Danmu2Ass GUI.resources.dll
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass GUI.csprojResolveAssemblyReference.cache
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Win_Main.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Properties.Resources.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Win_Easy.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Win_Expert.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass_GUI.Win_Main.zh-CN.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\Danmu2Ass GUI.csproj.GenerateResource.Cache
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Debug\zh-CN\Danmu2Ass GUI.resources.dll

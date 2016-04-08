@@ -48,7 +48,7 @@ namespace Danmu2Ass_GUI
                 gpbWindows.Controls.Add(win_ex);
                 gpbWindows.Size = win_ex.Size;
                 this.Size = win_ex.Size + new Size(19, 70);
-                comb_choosemode.Location = new Point(8, 315);
+                comb_choosemode.Location = new Point(6, 432);
             }
         }
     }

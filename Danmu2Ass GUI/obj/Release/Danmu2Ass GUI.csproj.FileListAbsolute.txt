@@ -1,0 +1,12 @@
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\bin\Release\Danmu2Ass GUI.exe
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\bin\Release\Danmu2Ass GUI.pdb
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\bin\Release\zh-CN\Danmu2Ass GUI.resources.dll
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass_GUI.Win_Main.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass_GUI.Properties.Resources.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass_GUI.Win_Easy.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass_GUI.Win_Expert.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass_GUI.Win_Main.zh-CN.resources
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.csproj.GenerateResource.Cache
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\zh-CN\Danmu2Ass GUI.resources.dll
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.exe
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.pdb

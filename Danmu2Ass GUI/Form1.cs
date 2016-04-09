@@ -39,6 +39,7 @@ namespace Danmu2Ass_GUI
                 gpbWindows.Size = win_ea.Size;
                 this.Size = win_ea.Size + new Size(20, 70);
                 comb_choosemode.Location = new Point(12, 90);
+                linkLabel1.Location = new Point(325, 90);
             }
             else
             {
@@ -49,7 +50,13 @@ namespace Danmu2Ass_GUI
                 gpbWindows.Size = win_ex.Size;
                 this.Size = win_ex.Size + new Size(19, 70);
                 comb_choosemode.Location = new Point(6, 432);
+                linkLabel1.Location = new Point(670, 436);
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://danmu2assgui.codeplex.com/");
         }
     }
 }

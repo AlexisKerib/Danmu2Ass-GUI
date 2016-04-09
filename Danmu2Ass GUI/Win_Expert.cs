@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Text.RegularExpressions;
 using System.IO;
 using System.Windows.Forms;
@@ -27,10 +28,8 @@ namespace Danmu2Ass_GUI
                 foreach (string filename in openFileDialog.FileNames)
                 {
                     ///若该项已存在，则不添加
-                    if (lstv_FileList.FindItemWithText(filename) == null)
-                    {
-                        lstv_FileList.Items.Add(new ListViewItem(new string[2] { Path.GetFileName(filename), filename }));
-                    }
+                    if (lstv_FileList.FindItemWithText(filename) != null) { return; }
+                    lstv_FileList.Items.Add(new ListViewItem(new string[2] { Path.GetFileName(filename), filename }));
                 }
             }
         }
@@ -41,6 +40,26 @@ namespace Danmu2Ass_GUI
         }
 
         private void btn_StartConvert_Click(object sender, EventArgs e)
+        {
+            StartFormat();
+        }
+
+        private void lstv_FileList_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop)) { e.Effect = DragDropEffects.Link; }
+            else { e.Effect = DragDropEffects.None; }
+        }
+
+        private void lstv_FileList_DragDrop(object sender, DragEventArgs e)
+        {
+            foreach (string files in (e.Data.GetData(DataFormats.FileDrop) as Array))
+            {
+                if (lstv_FileList.FindItemWithText(files) != null) { return; }
+                lstv_FileList.Items.Add(new ListViewItem(new string[2] { Path.GetFileName(files), files }));
+            }
+        }
+
+        public void StartFormat()
         {
             string commnd = "";
             txtb_output.Clear();
@@ -81,7 +100,7 @@ namespace Danmu2Ass_GUI
                     if (shiftSec[2] == null) { shiftSec[1] = "0"; }
                     optionList.Add("-shift " + shiftSec[0] + "." + shiftSec[1]);
                 }
-                commnd = string.Join(" ", optionList); 
+                commnd = string.Join(" ", optionList);
             }
             catch (Exception ex)
             {
@@ -92,6 +111,7 @@ namespace Danmu2Ass_GUI
 
             /// 设置运行参数后运行
             cmdp.StartInfo.UseShellExecute = true;
+            cmdp.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
             cmdp.StartInfo.FileName = "Kaedei.Danmu2Ass.exe";
             progressBar.Value = 0;
             progressBar.Maximum = lstv_FileList.Items.Count;

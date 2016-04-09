@@ -46,7 +46,7 @@
             this.comb_choosemode.FormattingEnabled = true;
             this.comb_choosemode.Items.AddRange(new object[] {
             "简单模式 - Easy Mode",
-            "*专家模式 - 【开发中】"});
+            "专家模式 - Expert Mode"});
             this.comb_choosemode.Location = new System.Drawing.Point(3, 94);
             this.comb_choosemode.Name = "comb_choosemode";
             this.comb_choosemode.Size = new System.Drawing.Size(171, 20);

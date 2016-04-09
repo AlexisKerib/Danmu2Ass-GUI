@@ -178,6 +178,7 @@
             // 
             // lstv_FileList
             // 
+            this.lstv_FileList.AllowDrop = true;
             this.lstv_FileList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Files,
             this.FilesFullName});
@@ -189,6 +190,8 @@
             this.lstv_FileList.TabIndex = 7;
             this.lstv_FileList.UseCompatibleStateImageBehavior = false;
             this.lstv_FileList.View = System.Windows.Forms.View.Details;
+            this.lstv_FileList.DragDrop += new System.Windows.Forms.DragEventHandler(this.lstv_FileList_DragDrop);
+            this.lstv_FileList.DragEnter += new System.Windows.Forms.DragEventHandler(this.lstv_FileList_DragEnter);
             // 
             // Files
             // 

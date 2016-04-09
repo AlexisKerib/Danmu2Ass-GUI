@@ -26,7 +26,7 @@ namespace Danmu2Ass_GUI
 
         private void txtb_file_easy_DragDrop(object sender, DragEventArgs e)
         {
-            txtb_file_easy.Text = (e.Data.GetData(DataFormats.FileDrop) as System.Array).GetValue(0).ToString();
+            txtb_file_easy.Text = (e.Data.GetData(DataFormats.FileDrop) as Array).GetValue(0).ToString();
         }
 
         private void txtb_file_easy_DragEnter(object sender, DragEventArgs e)

@@ -10,3 +10,4 @@ F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.csp
 F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\zh-CN\Danmu2Ass GUI.resources.dll
 F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.exe
 F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.pdb
+F:\Hider\Coding\Release\Dammu2AssGUI\Danmu2Ass GUI\obj\Release\Danmu2Ass GUI.csprojResolveAssemblyReference.cache
